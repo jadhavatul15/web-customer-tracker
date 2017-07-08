@@ -19,7 +19,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 	
 	
 	 
-	@Transactional
+	
 	public List<Customer> getCustomer(){
 		
 	    Session currentSession = sessionFactory.getCurrentSession();
